@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 * {
     box-sizing: border-box;
@@ -68,3 +68,20 @@ header h1 {
         padding-bottom: 20px;
     }
 }
+
+.btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 250px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 20px auto;
+    height: 41px;
+    width: 30%;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+  }
